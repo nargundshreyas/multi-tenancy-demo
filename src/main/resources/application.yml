@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/t0_mt
+    username: root
+    password: root
+    driver-class-name: com.mysql.jdbc.Driver
+    
+jwt:
+  tenantHeader: X-TenantId
+  default-tenant-id: t0
+  tenant-suffix: _mt
